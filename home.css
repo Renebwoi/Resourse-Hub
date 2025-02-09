@@ -108,7 +108,7 @@ section.smallBookSection{
     column-gap: 20px;
     border-radius: 10px;
     margin-top: 20px;
-
+    position: relative;
 }
 .smallBookSection .subjectName{
     font-weight: 700;
@@ -126,6 +126,18 @@ section.smallBookSection{
     border: none;
     border-radius: 10px;
     margin-top: 50px;
+}
+.smallBookSection article a{
+    padding: 10px;
+    background-color: rgb(81, 81, 193);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
 }
 .browse .bigBookSection .smallBookSection .smallBookSectionName{
     justify-content: center;

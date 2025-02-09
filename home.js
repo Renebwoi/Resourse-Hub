@@ -123,3 +123,22 @@ displayBooks()
 //     // call the displayBooks function
 //     displayBooks()
 // }
+
+// to filter books by search
+//----------------------------------------------------------------
+// let searchInput = document.querySelector(".search input[type=search]")
+// searchInput.addEventListener("input", ()=>{
+//     let searchValue = searchInput.value.toLowerCase()
+//     fetch("https://example-api.com/books")
+//         .then(response => response.json())
+//         .then(data => {
+//             let filteredBooks = data.filter((book) => {
+//                 return book.name.toLowerCase().includes(searchValue) || 
+//                        book.author.toLowerCase().includes(searchValue) || 
+//                        book.subject.toLowerCase().includes(searchValue);
+//             });
+//             books = filteredBooks;
+//             displayBooks();
+//         })
+//         .catch(error => console.error('Error fetching books:', error));
+// })
