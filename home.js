@@ -44,6 +44,13 @@ let books = [
         subject: "Biology",
         image: "bio.jpeg",
         link: "https://www.biologyforbeginners.com"
+    },
+    {
+        name: "University Biology",
+        author: "John Richard",
+        subject: "Biology",
+        image: "https://wallpapercave.com/wp/wp3059252.png",
+        link: "UniversityPhysics.pdf"
     }
 ]
 
@@ -149,3 +156,19 @@ displayBooks()
 //         })
 //         .catch(error => console.error('Error fetching books:', error));
 // })
+
+
+
+// to filter books by search
+// ----------------------------------------------------------------
+let searchInput = document.querySelector(".search input[type=search]")
+searchInput.addEventListener("input", ()=>{
+    let searchValue = searchInput.value.toLowerCase()
+    let filteredBooks = books.filter((book) => {
+        return book.name.toLowerCase().includes(searchValue) || 
+               book.author.toLowerCase().includes(searchValue) || 
+               book.subject.toLowerCase().includes(searchValue);
+    });
+    books = filteredBooks;
+    displayBooks();
+})
