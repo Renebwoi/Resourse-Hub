@@ -39,6 +39,13 @@ let books = [
         link: "https://www.basicphysics.org"
     },
     {
+        name: "University Physics",
+        author: "clinton c. rofus",
+        subject: "Physics",
+        image: "UniversityPhysics.png",
+        link: "UniversityPhysics.pdf"
+    },
+    {
         name: "Biology for Beginners",
         author: "Tracy I. Storer",
         subject: "Biology",
