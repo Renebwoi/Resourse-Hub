@@ -55,6 +55,7 @@ nav ul li a {
 }
 .search img{
     width: 25%;
+    border-radius: 20px;
 
 }
 .search .introduction p{
@@ -67,12 +68,122 @@ nav ul li a {
     margin-bottom: 20px;
     font-size: xx-large;
 }
+.cresa img{
+    width: 25%;
+    border-radius: 20px;
+}
+.cresaintro{
+    display: flex;
+    flex-direction: column;
+}
+.cresa .cresaintro p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.cresa{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+}
+.business{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+    flex-direction: row;
+}
+.business .busedu p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.business img{
+    width: 25%;
+    border-radius: 20px;
+}
+.business h2{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.agriculture img{
+    width: 25%;
+    border-radius: 20px;
+}
+.agricintro{
+    display: flex;
+    flex-direction: column;
+}
+.agriculture .agricintro p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.agriculture{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+}
+.homeeconomics{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+    flex-direction: row;
+}
+.homeeconomics .homec p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.homeeconomics img{
+    width: 25%;
+    border-radius: 20px;
+}
+.homeeconomics h2{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.industrialTech img{
+    width: 25%;
+    border-radius: 20px;
+}
+.itedu{
+    flex-direction: column;
+    display: flex;
+}
+.industrialTech .itedu p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.industrialTech{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
 
-
-.browse{
-    background-color: rgb(199, 199, 211);
-    padding: 20px 40px;
-    height: 500px;
 }
 
 
