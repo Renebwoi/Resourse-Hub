@@ -35,7 +35,6 @@ nav ul li a {
     text-decoration: none;
 }
 .intro {
-    /* text-align: center; */
     padding: 50px 70px;
     background: rgb(199, 199, 211);
 }
@@ -50,21 +49,42 @@ nav ul li a {
     font-size: 32px;
 }
 .contacts{
-    height: 400px;
-    background-color: yellow;
+    height: 500px;
+    background-color: rgb(245, 245, 166);
     display: flex;
 }
 .contacts .column1{
     width: 50%;
     height: 100%;
-    background-color: red;
-    /* display: flex; */
-    justify-content: space-between;
+    background-color: rgb(240, 166, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    /* align-content: center; */
+}
+.contact .column1 .callus{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
 }
 .contacts .column2{
     width: 50%;
     height: 100%;
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+}
+.contacts img{
+    width: 100px;
+}
+.contacts p{
+    font-size: calc(9px + 1vw);
+    font-weight: 600;
 }
 
 
